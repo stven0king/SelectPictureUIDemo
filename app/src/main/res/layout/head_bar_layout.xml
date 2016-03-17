@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+    <TextView
+        android:id="@+id/head_center"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/headbar_height"
+        android:text="@string/all_photp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/head_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawablePadding="4dp"
+        android:typeface="sans"
+        android:background="@null"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/back_icon"/>
+
+    <TextView
+        android:id="@+id/head_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/complete_select_picture_tip"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/head_bar_right_bg"
+        android:visibility="visible"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#E1E2E4"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SelectPictureDemo</string>
+    <string name="all_photp">所有图片</string>
+    <string name="complete_select_picture_tip"><![CDATA[完成(currentnum/maxnumber)]]></string>
+</resources>

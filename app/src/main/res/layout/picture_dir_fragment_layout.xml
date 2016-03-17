@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/pircture_dri_fragment_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_recyclerview"
+        android:divider="#ffff0000"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="@dimen/headbar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"/>
+</RelativeLayout>
