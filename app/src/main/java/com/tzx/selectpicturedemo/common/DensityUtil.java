@@ -14,11 +14,7 @@ import android.view.WindowManager;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/**
- * TODO 添加类的功能描述. 
- * @author 赵彦辉
- * @date: 2014年10月8日 下午4:52:53
- */
+
 public class DensityUtil {
     /**
      * 根据手机的分辨率从 dip 的单位 转成为 px(像素)
