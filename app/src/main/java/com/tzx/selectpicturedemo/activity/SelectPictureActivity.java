@@ -109,14 +109,14 @@ public class SelectPictureActivity extends FragmentActivity implements View.OnCl
             if (adapter.isCheck(position)) {
                 adapter.setItemUnCheck(position);
                 currentNum--;
-                adapter.notifyDataSetChanged();
+                adapter.notifyItemChanged(position);
                 selectCompletePictureUpdateTV(currentNum, headRightTV);
             } else {
                 if (currentNum < maxPicNum) {
                     adapter.setItemCheck(position);
                     currentNum++;
                     selectCompletePictureUpdateTV(currentNum, headRightTV);
-                    adapter.notifyDataSetChanged();
+                    adapter.notifyItemChanged(position);
                 } else {
                     Toast.makeText(SelectPictureActivity.this, "最多选择" + maxPicNum + "张图片", Toast.LENGTH_SHORT).show();
                 }
